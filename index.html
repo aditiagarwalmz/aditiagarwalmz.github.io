@@ -28,7 +28,7 @@
             }
             .pic
             {
-                position: fixed;
+                position: absolute;
                 width:50%;
                 right: 25%;
                 left: 25%;
@@ -52,7 +52,12 @@
             }
             #how
             {
+                position: absolute;
                 text-align: center;
+                z-index: 3;
+                margin-top: 230px;
+                left: 25%;
+                right: 25%;
             }
         </style>
     </head>
@@ -73,13 +78,12 @@
         <h1 id= "unbox-line" class="pre-pic">
             THE GREATEST UNBOXING OF ALL TIME!
         </h1>
-        
+        <div>
         <!--photo-->
         <img class= "pic" src= "https://www.kasandbox.org/programming-images/animals/shark.png" alt="space grey Macbook Air">
-        <h2 id= "how">
-            HOW, YOU ASK?
-        </h2>
-        
-        
+       <h2 id="how">
+           HOW, YOU ASK?
+       </h2>
+        </div>
     </body>
 </html>
