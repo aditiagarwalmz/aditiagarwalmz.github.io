@@ -14,6 +14,12 @@
                 background-color: rgb(255, 226, 212);
                 z-index: 0;
                 } 
+                #heading{
+                    font-size:40px;
+                    background-color: rgb(255, 234, 222);
+                    z-index: 1;
+                    
+                }
                 .prepic{
                     text-align: center;
                 }
@@ -25,7 +31,7 @@
                     right: 25%;
                     left: 25%;
                     border: 9px solid rgb(255, 178, 150);
-                    z-index: 2;
+                    z-index: 1;
                     
                 }
                 #when
@@ -67,24 +73,53 @@
                 #invite-line{
                     font-style: italic;
                 }
+                .details{
+                    
+                    font-size: 32px;
+                }
+                .details-a
+                {
+                    font-size:23px; 
+                }
+                .line{
+                    position: relative;
+                    text-align: center;
+                }
+                #num
+                {
+                   position: relative;
+                   text-align: center; 
+                   font-style: italic;
+                }
+                #rsvp
+                {
+                    position: relative;
+                    text-align: center;
+                    
+                }
         </style>
     </head>
     <body>
         <div id="background"></div>
         
         <div>
-            <h1 class= "prepic">LOVE IS IN THE AIR!</h1>
+            <h1 class= "prepic" id="heading">LOVE IS IN THE AIR!</h1>
             <h3 id="invite-line"class="prepic">You are invited to...</h3>
             <h2 class="prepic">THE GREATEST UNBOXING OF ALL TIME!</h2>
-            <div><img id ="fotu"src="https://images.app.goo.gl/jGd1reP7jvcmiy8L8"></div>
+            <div><img id ="fotu"src="https://www.kasandbox.org/programming-images/space/background.png"></div>
             
         </div>
-        <div><h2 id="when">WHEN?</h2></diV>
-        <div><h3 id="day">THE DAY IT ARRIVES</h3></diV>
-        <div><h2 id="where">WHERE?</h2></diV>
-        <div><h3 id="place">MIG'S PLACE</h3></diV>
-        <div><h2 id="you-can-bring">YOU CAN BRING</h2></diV>
-        <div><h3 id="things">BOARD GAMES AND OBVIOUSLY YOUR OWN MACBOOK <br>(EXTRA POINTS FOR A CHOCOLATE)</h3></diV>
+        <div><h2 id="when" class= "details">WHEN?</h2></diV>
+        <div><h3 id="day" class= "details-a">The day it arrives</h3></diV>
+        <div><h3 class ="line"> ________________________________</h3></div>
+        <div><h2 id="where" class= "details">WHERE?</h2></diV>
+        <div><h3 id="place" class= "details-a">Mig's place</h3></diV>
+        <div><h3 class ="line"> ________________________________</h3></div>
+        <div><h2 id="you-can-bring" class= "details">YOU CAN BRING</h2></diV>
+        <div><h3 id="things" class= "details-a">Board games and Macbook <br>(Extra points for chocolates)</h3></diV>
+        <div><h3 class ="line"> ________________________________</h3></div>
+        <div><h2 id="rsvp" class= "details">RSVP</h2></diV>
+        <div><h3 id="num" class= "details-a">Mig: +917877619394 </h3></diV>
         
         
         
