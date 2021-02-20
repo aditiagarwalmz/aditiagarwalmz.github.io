@@ -14,76 +14,79 @@
                 background-color: rgb(255, 226, 212);
                 z-index: 0;
                 } 
-                
-            h1
-            {
-                text-align: center;
-                margin-top: 35px;
-                z-index: 1;
-            }
-            .pre-pic
-            { position: relative;
-                text-align: center;
-                z-index: 1;
-            }
-            .pic
-            {
-                position: absolute;
-                width:50%;
-                right: 25%;
-                left: 25%;
-                border: 9px solid rgb(255, 178, 150);
-                z-index: 2;
-            }
-            #heading
-            {   
-                font-size: 40px;
-                margin-top: 20px;
-                margin-bottom: 30px;
-            }
-            #invite-line
-            {
-                margin-bottom: -29px;
-                font-style: italic;
-            }
-            #unbox-line
-            {
-                font-size: 30px;
-            }
-            #how
-            {
-                position: absolute;
-                text-align: center;
-                z-index: 3;
-                margin-top: 230px;
-                left: 25%;
-                right: 25%;
-            }
+                .prepic{
+                    text-align: center;
+                }
+                #fotu
+                {
+                    position: relative;
+                    width: 50%;
+                    width:50%;
+                    right: 25%;
+                    left: 25%;
+                    border: 9px solid rgb(255, 178, 150);
+                    z-index: 2;
+                    
+                }
+                #when
+                {
+                    position: relative;
+                    text-align: center;
+                    
+                }
+                #day
+                {
+                   position: relative;
+                    text-align: center; 
+                    font-style: italic;
+                }
+                #where
+                {
+                    position: relative;
+                    text-align: center;
+                    
+                }
+                #place
+                {
+                   position: relative;
+                   text-align: center; 
+                   font-style: italic;
+                }
+                #you-can-bring
+                {
+                    position: relative;
+                    text-align: center;
+                    
+                }
+                #things
+                {
+                   position: relative;
+                   text-align: center; 
+                   font-style: italic;
+                }
+                #invite-line{
+                    font-style: italic;
+                }
         </style>
     </head>
     <body>
-    
-    <!-- div only for background-->
-        <div id="background">
-        </div>
+        <div id="background"></div>
         
-        <h1 id="heading">
-            LOVE IS IN THE AIR!
-        </h1>
-        
-        <h3 id="invite-line" class ="pre-pic">
-            You are invited to...
-        </h3>
-        
-        <h1 id= "unbox-line" class="pre-pic">
-            THE GREATEST UNBOXING OF ALL TIME!
-        </h1>
         <div>
-        <!--photo-->
-        <img class= "pic" src= "https://www.kasandbox.org/programming-images/animals/shark.png" alt="space grey Macbook Air">
-       <h2 id="how">
-           HOW, YOU ASK?
-       </h2>
+            <h1 class= "prepic">LOVE IS IN THE AIR!</h1>
+            <h3 id="invite-line"class="prepic">You are invited to...</h3>
+            <h2 class="prepic">THE GREATEST UNBOXING OF ALL TIME!</h2>
+            <div><img id ="fotu"src="https://www.kasandbox.org/programming-images/space/background.png"></div>
+            
         </div>
+        <div><h2 id="when">WHEN?</h2></diV>
+        <div><h3 id="day">THE DAY IT ARRIVES</h3></diV>
+        <div><h2 id="where">WHERE?</h2></diV>
+        <div><h3 id="place">MIG'S PLACE</h3></diV>
+        <div><h2 id="you-can-bring">YOU CAN BRING</h2></diV>
+        <div><h3 id="things">BOARD GAMES AND OBVIOUSLY YOUR OWN MACBOOK <br>(EXTRA POINTS FOR A CHOCOLATE)</h3></diV>
+        
+        
+        
     </body>
 </html>
