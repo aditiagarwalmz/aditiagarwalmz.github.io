@@ -15,7 +15,7 @@
                 z-index: 0;
                 } 
                 #heading{
-                    font-size:55px;
+                    font-size:60px;
                     background-color: rgb(255, 234, 222);
                     z-index: 1;
                     
@@ -101,6 +101,35 @@
                 {
                     line-height:0.9;
                 }
+                #contents
+                {
+                    position: relative;
+                    text-align: center;
+                    background-color: rgb(255, 226, 212);
+                }
+                #links
+                {
+                    position:relative;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+                #times
+                {
+                   position: relative;
+                   text-align: center; 
+                   font-style: italic;
+                }
+                #time
+                {
+                    position: relative;
+                    text-align: center;
+                    font-family: "helvetica";
+                }
+                #unbox-line
+                {
+                    position: relative;
+                    font-size: 30px;
+                }
         </style>
     </head>
     <body>
@@ -109,24 +138,37 @@
         <div>
             <h1 class= "prepic" id="heading">LOVE IS IN THE AIR!</h1>
             <h3 id="invite-line"class="prepic">You are invited to...</h3>
-            <h2 class="prepic">THE GREATEST UNBOXING OF ALL TIME!</h2>
+            <h2 id="unbox-line" class="prepic">THE GREATEST UNBOXING OF ALL TIME!</h2>
+            <h2 id="contents">CONTENTS</h2>
+            <ul id="links">
+               <a href ="#when"> <li>when?</li></a>
+              <a href ="#where"> <li>where?</li></a>
+                <a href="#you-can-bring"><li>stuff you can bring</li></a>
+                <a href="#rsvp"><li>rsvp</li></a>
+                <a href="#time"><li>time</li></a>
+            </ul>
             <div><img id ="fotu"src="https://www.kasandbox.org/programming-images/space/background.png"></div>
             
         </div>
         <div class="line-spacing">
         <h2 id="when" class= "details" >WHEN?</h2>
-        <h3 id="day" class= "details-a">The day it arrives</h3>
+        <h3 id="day" class= "details-a">The day it arrives<br><br>(12th March - 19th March)</h3>
+        </diV>
+        <div><h3 class ="line"> ______________________</h3></div>
+        <div class="line-spacing">
+        <h2 id="time" class= "details" >TIME</h2>
+        <h3 id="times" class= "details-a">You'll be contacted</h3>
         </diV>
         
         <div><h3 class ="line"> ______________________</h3></div>
         
         <div class="line-spacing"><h2 id="where" class= "details" >WHERE?</h2>
-        <h3 id="place" class= "details-a">Mig's place</h3></diV>
+        <h3 id="place" class= "details-a">Mig's place<br><br>95 Usha Colony, Malviya Nagar</h3></diV>
         
         <div><h3 class ="line">  ______________________</h3></div>
         
         <div class="line-spacing"><h2 id="you-can-bring" class= "details" >YOU CAN BRING</h2>
-        <h3 id="things" class= "details-a">Board games and Macbook <br>(Extra points for chocolates)</h3></diV>
+        <h3 id="things" class= "details-a">Board games and Macbook <br><br>(Extra points for chocolates)</h3></diV>
         
         <div><h3 class ="line"> ______________________</h3></div>
         
